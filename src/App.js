@@ -3,7 +3,7 @@ import { Provider, useDispatch, useSelector } from "react-redux";
 import { store } from "./redux/store";
 import { addTask, deleteTask, reorderTasks } from "./redux/taskSlice";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import { Container, Card, CardContent, Button, TextField, Typography, Grid, MenuItem, Select, FormControl, InputLabel, Box } from "@mui/material";
+import { Container, Card, CardContent, Button, TextField, Typography, Grid, MenuItem,FormControl, Box } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { motion } from "framer-motion";
